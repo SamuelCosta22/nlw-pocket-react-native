@@ -34,7 +34,7 @@ export function Details({ data }: Props) {
         <Text style={s.title}>Informações</Text>
         <Info
           icon={<Ticket size={16} color={colors.gray[400]} />}
-          description={`${cupons} cupons disponíveis`}
+          description={`${data.cupouns} cupons disponíveis`}
         />
         <Info
           icon={<MapPin size={16} color={colors.gray[400]} />}
